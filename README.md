@@ -24,8 +24,8 @@ python TCP socket 과 thread 를 이용한 채팅 프로그램 구현
 ```python
 class ChatRoom:
     addClient(self, c): 리스트에 클라이언트 추가
-		delClient(self, c): 리스트에 클라이언트 삭제
-		sendMsgAll(self, msg): 리스트에 있는 모든 클라이언트에게 메세지 전송
+    delClient(self, c): 리스트에 클라이언트 삭제
+    sendMsgAll(self, msg): 리스트에 있는 모든 클라이언트에게 메세지 전송
 
 class ChatClient:
     readMsg(self): 클라이언트로부터 받은 메세지를 적절히 가공한 뒤 모든 클라이언트에게 전달(sendMsgAll)
